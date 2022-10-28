@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css nav */
+nav{
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: -9px;
+    
+}
+nav ul li{
+    padding: 12px 12px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    transition: color .7s;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    color: rgb(85, 85, 85);
+    
+}
+/* css nav */
+
+
+/* section/table */
+section h1{
+    font-weight: 600;
+    font-size: 31px;
+    color: black;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+section tr th{
+    color: black;
+    border-top: 0 !important;
+}
+section tr td{
+    color: black;
+}
+
+/* section/table */
+
+/* form */
+
+form label{
+    margin-top: 12px;
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: black;
+}
+form input{
+    margin-bottom: 12px;
+    padding: 6px 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 300;
+}
+input::placeholder {
+    color: rgb(145, 140, 140);
+}
+
+  textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+form a button{
+    margin-top: 21px;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: background-color .7s;
+}
+form a button:hover{
+    background-color:rgb(85, 85, 85) ;
+}
+a{
+ color: black;
+ transition: color .7s;
+}
+a:hover{
+    color:rgb(85, 85, 85) ;
+    text-decoration: none;
+}
+
+/* form */
